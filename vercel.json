@@ -10,5 +10,11 @@
       "src": "/(.*)",
       "dest": "lib/index.js"
     }
+  ],
+  "builds": [
+    {
+      "src": "*.js",
+      "use": "@vercel/node"
+    }
   ]
 }
